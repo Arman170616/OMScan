@@ -1,6 +1,55 @@
-# OMScan — Mobile POS System
+<div align="center">
 
-A Flutter-based Point of Sale application with barcode scanning, inventory management, and bilingual Arabic/English support.
+<img src="assets/images/app_icon.png" alt="OMScan Logo" width="120" height="120" style="border-radius: 24px"/>
+
+# OMScan
+
+**Mobile Point of Sale — Flutter App**
+
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/Arman170616/OMScan/releases/latest)
+[![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?style=for-the-badge&logo=flutter)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-3.x-blue?style=for-the-badge&logo=dart)](https://dart.dev)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
+
+</div>
+
+---
+
+## Screenshots
+
+<div align="center">
+
+| Scanner | Inventory | Checkout | Dashboard |
+|:-------:|:---------:|:--------:|:---------:|
+| <img src="screenshots/scanner.png" width="200"/> | <img src="screenshots/inventory.png" width="200"/> | <img src="screenshots/checkout.png" width="200"/> | <img src="screenshots/dashboard.png" width="200"/> |
+| Scan barcodes to add items | Manage your product catalog | Review cart & pay | Track daily sales |
+
+</div>
+
+---
+
+## Download APK
+
+<div align="center">
+
+[![Download Latest APK](https://img.shields.io/badge/⬇️%20Download%20APK-v1.0.0-brightgreen?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Arman170616/OMScan/releases/latest)
+
+</div>
+
+**Install on Android:**
+1. Download `app-release.apk` from the [Releases page](https://github.com/Arman170616/OMScan/releases/latest)
+2. Enable **Install from unknown sources** in Android Settings → Security
+3. Open the downloaded APK and tap Install
+
+---
+
+## App Icon
+
+<div align="center">
+<img src="assets/images/app_icon.png" alt="OMScan App Icon" width="100"/>
+<br/>
+<em>OMScan — Karisma POS</em>
+</div>
 
 ---
 
@@ -50,7 +99,6 @@ lib/
 ├── utils/
 │   ├── database_helper.dart   # SQLite CRUD operations
 │   ├── invoice_service.dart   # PDF invoice builder
-│   ├── printer_service.dart   # Bluetooth print commands
 │   ├── formatter.dart         # Currency & date formatters
 │   └── l10n.dart              # Bilingual string class (AR/EN)
 ├── widgets/
@@ -82,6 +130,10 @@ flutter pub get
 
 # Run on a connected device
 flutter run
+
+# Build release APK
+flutter build apk --release
+# Output: build/app/outputs/flutter-apk/app-release.apk
 ```
 
 ---
@@ -113,6 +165,8 @@ Tap the **AR \| EN** toggle in the top bar on any screen to switch languages. Th
 
 ---
 
-## License
+<div align="center">
 
-This project is proprietary software developed for Karisma. All rights reserved.
+Made with ❤️ for **Karisma** — © 2025 All rights reserved.
+
+</div>
