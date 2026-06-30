@@ -21,7 +21,7 @@
 
 | Scanner | Inventory | Checkout | Dashboard |
 |:-------:|:---------:|:--------:|:---------:|
-| <img src="screenshots/scanner.png" width="200"/> | <img src="screenshots/inventory.png" width="200"/> | <img src="screenshots/checkout.png" width="200"/> | <img src="screenshots/dashboard.png" width="200"/> |
+| <img src="screenshots/scanner.jpeg" width="200"/> | <img src="screenshots/inventory.jpeg" width="200"/> | <img src="screenshots/checkout.jpeg" width="200"/> | <img src="screenshots/dashboard.jpeg" width="200"/> |
 | Scan barcodes to add items | Manage your product catalog | Review cart & pay | Track daily sales |
 
 </div>
